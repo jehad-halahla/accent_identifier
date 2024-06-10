@@ -1,3 +1,4 @@
+
 #inckude the necessary libraries if they are not included
 import os
 import glob
@@ -11,9 +12,6 @@ from sklearn.metrics import silhouette_score, classification_report, confusion_m
 from sklearn.neighbors import KNeighborsClassifier
 import seaborn as sns
 import matplotlib.pyplot as plt
-
-
-
 
 # method to load audio files
 def load_audio_files(base_path):
